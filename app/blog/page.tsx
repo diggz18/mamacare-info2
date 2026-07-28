@@ -77,7 +77,7 @@ export default function BlogPage() {
                         >
                             {article.category}
                         </span>
-                        <h2 className="mt-1 text-base font-bold text-gray-900">
+                        <h2 className="mt-1 text-sm font-bold text-gray-900">
                             {article.title}
                         </h2>
                         <button
