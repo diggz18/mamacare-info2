@@ -87,7 +87,7 @@ export default function ContactPage() {
                     <div>
                         <h2 className="text-base font-bold mb-2 text-gray-900">Talk to Us</h2>
                         <p className="text-gray-600 text-[14px]">+234 904 915 5555</p>
-                        <p className="text-gray-600 text-[14px]">info@mamacareng.com</p>
+                        <p className="text-gray-600 text-[14px]">support@mamacareng.com</p>
                     </div>
 
                     {/* Follow Us */}
