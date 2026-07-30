@@ -20,17 +20,17 @@ const QUICK_LINKS = [
 ];
 
 const SUPPORT_LINKS = [
-    { label: "Help Center", href: "/help-center" },
-    { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "Terms of Use", href: "/terms-of-use" },
+    { label: "Help Center", href: "/help" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Use", href: "/terms" },
     { label: "FAQ", href: "/faq" },
 ];
 
 const SOCIALS = [
-    { label: "Facebook", href: "https://facebook.com", Icon: FacebookIcon },
-    { label: "Instagram", href: "https://instagram.com", Icon: InstagramIcon },
-    { label: "Twitter", href: "https://twitter.com", Icon: TwitterIcon },
-    { label: "TikTok", href: "https://tiktok.com", Icon: TikTokIcon },
+    { label: "Facebook", href: "https://whatsapp.com/channel/0029VbD5keq4Y9ljPLjfdm2t", Icon: FacebookIcon, target:"_blank" },
+    { label: "Instagram", href: "https://www.instagram.com/mamacare_ng?igsh=MWE2NjMyeXJia2JtNQ==&utm_source=ig_contact_invite", Icon: InstagramIcon, target:"_blank" },
+    { label: "Twitter", href: "https://x.com/mamacare_ng?s=11", Icon: TwitterIcon, target:"_blank" },
+    { label: "TikTok", href: "https://www.tiktok.com/@mamacare_ng?_r=1&_t=ZS-98KMj8fkLgd", Icon: TikTokIcon, target:"_blank" },
 ];
 
 export default function Footer() {
@@ -109,7 +109,7 @@ export default function Footer() {
                         <h3 className="text-base font-semibold">Download the App</h3>
                         <div className="mt-3 flex flex-col items-center gap-2 sm:items-start">
                             <a
-                                href="https://play.google.com"
+                                href="https://play.google.com/store/apps/details?id=com.mamacareng.app&pcampaignid=web_share"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex w-36 items-center gap-1.5 rounded-md bg-black px-3 py-1.5 transition-opacity hover:opacity-90"
@@ -121,7 +121,7 @@ export default function Footer() {
                                 </span>
                             </a>
                             <a
-                                href="https://www.apple.com/app-store"
+                                href="https://apps.apple.com/ng/app/mamacare/id6787990356"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex w-36 items-center gap-1.5 rounded-md bg-black px-3 py-1.5 transition-opacity hover:opacity-90"
