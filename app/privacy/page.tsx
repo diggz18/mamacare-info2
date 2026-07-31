@@ -63,7 +63,8 @@ export default function PrivacyPage() {
     },
     {
       title: "14. Contact Us",
-      content: "If you have questions regarding this Privacy Policy or wish to exercise your legal data rights, please contact MamaCare via email at info@mamacareng.com, visit ://mamacareng.com, or write to us at: Plot 62, Emeritus Umaru Shehu Avenue, Cadastral Zone C00, Abuja, FCT, Nigeria.",
+      content:
+        "If you have questions regarding this Privacy Policy or wish to exercise your legal data rights, please contact MamaCare via email at support@mamacareng.com, or write to us at: Plot 62, Emeritus Umaru Shehu Avenue, Cadastral Zone C00, Abuja, FCT, Nigeria.",
     },
   ];
 
@@ -149,6 +150,20 @@ export default function PrivacyPage() {
                 }}
               >
                 {s.content}
+                {s.title === "14. Contact Us" && (
+                  <>
+                    {" "}Visit{" "}
+                    <a
+                      href="https://mamacareng.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "var(--green)", textDecoration: "underline" }}
+                    >
+                      mamacareng.com
+                    </a>
+                    .
+                  </>
+                )}
               </p>
             </section>
           ))}

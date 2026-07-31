@@ -178,7 +178,7 @@ export default function HelpCenterPage() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search for a topic, e.g. \"reminders\" or \"due date\""
+            placeholder='Search for a topic, e.g. "reminders" or "due date"'
             aria-label="Search help topics"
             style={{
               flex: 1,
